@@ -1,0 +1,50 @@
+/* Login.css */
+
+.lgn {
+    max-width: 400px; /* limit the width of the form */
+    margin: 40px auto; /* center the form */
+    padding: 20px; /* add some padding */
+    background-color: #f9f9f9; /* light gray background */
+    border: 1px solid #ddd; /* add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+}
+
+h1 {
+    margin-top: 0; /* remove default margin */
+    color: #333; /* dark gray text color */
+}
+
+label {
+    margin-bottom: 10px; /* add some space between labels */
+    font-weight: bold; /* make the labels bold */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; /* make the inputs full-width */
+    padding: 10px; /* add some padding */
+    margin-bottom: 20px; /* add some space between inputs */
+    border: 1px solid #ccc; /* add a border */
+    box-sizing: border-box; /* ensure the inputs don't overflow */
+}
+
+.btn {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text color */
+    padding: 10px 20px; /* add some padding */
+    border: none; /* remove default border */
+    border-radius: 5px; /* add a subtle border radius */
+    cursor: pointer; /* change the cursor on hover */
+}
+
+    .btn:hover {
+        background-color: #444; /* darker gray background on hover */
+    }
+
+a {
+    text-decoration: none; /* remove default underline */
+    color: #337ab7; /* blue text color */
+}
+
+    a:hover {
+        color: #23527c; /* darker blue text color on hover */
+    }
